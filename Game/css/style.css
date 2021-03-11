@@ -1,0 +1,103 @@
+* {
+	margin: 0rem;
+	padding: 0px;
+}
+
+#zhu {
+	background: url(../images/game_bg.jpg) no-repeat;
+	width: 320px;
+	margin-left: 640px;
+	height: 480px;
+	margin-top: 50px;
+}
+
+.fen {
+	color: white;
+	margin-left: 60px;
+}
+
+.over {
+	position: absolute;
+	top: 50px;
+	color: red;
+	width: 320px;
+	height: 480px;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.over h1 {
+	margin-left: 60px;
+	text-shadow: 3px 3px 0 #FFFFFF;
+	position: absolute;
+	top: 200px;
+}
+
+.over button {
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	position: absolute;
+	top: 310px;
+	margin-left: 60px;
+	border-radius: 100%;
+	border: none;
+	background: #2e88d2;
+	color: white;
+	cursor: pointer;
+}
+
+.guize {
+	width: 320px;
+	height: 480px;
+	color: white;
+	top: 50px;
+	position: absolute;
+	margin-left: 640px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 70px;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.guize .p1 {
+	margin-top: 50px;
+}
+
+.guize a {
+	color: red;
+}
+
+#time {
+	background: url(../images/progress.png) no-repeat;
+	margin-top: 24px;
+	margin-left: 63px;
+	width: 180px;
+	height: 16px;
+}
+
+#di {
+	width: 320px;
+	margin-left: 640px;
+	background: #cccccc;
+}
+
+#di p {
+	text-align: center;
+	cursor: pointer;
+}
+
+.but {
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	position: absolute;
+	top: 360px;
+	margin-left: 60px;
+	border-radius: 100%;
+	border: none;
+	background: linear-gradient(#e55c3d, #c50000);
+	color: white;
+	cursor: pointer;
+}
